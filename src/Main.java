@@ -15,13 +15,15 @@ public class Main {
       String option = scanner.nextLine();
 
       if (option.equals("1")) {
-        System.out.println("Executar Fibonacci");
+        Fibonacci fibonacci = new Fibonacci();
+        fibonacci.verifyNumber();
       } else if (option.equals("0")) {
         break;
       }
     }
 
     System.out.println("Grato por utilizar o sistema");
+    scanner.close();
 
   }
 

@@ -13,6 +13,7 @@ public class Main {
       System.out.println("1 - Fibonacci");
       System.out.println("2 - Verificar se String tem letra 'a'");
       System.out.println("3 - Desafio Soma");
+      System.out.println("4 - Desafio Progressão");
       System.out.println("0 - Sair");
       System.out.print("Digite a opção escolhida: ");
       String option = scanner.nextLine();
@@ -26,6 +27,9 @@ public class Main {
           break;
         case "3":
           DesafioSoma.soma();
+          break;
+        case "4":
+          DesafioProgressao.progressao();
           break;
         case "0":
           break label;

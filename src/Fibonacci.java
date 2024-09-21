@@ -6,7 +6,7 @@ public class Fibonacci {
     try {
       Scanner scanner = new Scanner(System.in);
       System.out.println("Verificar se um número faz parte da sequência Fibonacci iniciada em 0 e 1");
-      System.out.println("Digite um número: ");
+      System.out.print("Digite um número: ");
       int number = scanner.nextInt();
 
       if (isFibonacci(number)) {

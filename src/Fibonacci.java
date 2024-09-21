@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Fibonacci {
 
-  public void verifyNumber() {
+  public static void verifyNumber() {
     try {
       Scanner scanner = new Scanner(System.in);
       System.out.println("Verificar se um número faz parte da sequência Fibonacci iniciada em 0 e 1");

@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class VerifyString {
 
-  public void findLetterA() {
+  public static void findLetterA() {
 
     Scanner scanner = new Scanner(System.in);
     System.out.println("Verificar quantas letras A tem em uma string");
